@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+ <title>Profil Diri</title>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body> 
+
+    <div id="app">
+       <h2>{{message}}</h2>
+       <p>{{nama}}</p>
+       <p>{{nim}}</p>
+       <p>{{jurusan}}</p>
+       <p>{{fakultas}}</p>
+       <p>{{alamat}}</p>
+      </div>
+
+      <script type="text/javascript">
+                var vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'Profil Diri',
+            nama:   'Nama : Fitri Wulandari',
+            nim: 'Nim : 11950125070',
+            jurusan:  'Jurusan :  Teknik Informatika',
+            fakultas:   'Fakultas : Sains dan Teknologi',
+            alamat:   'Alamat : Sintong Pusaka'
+        }
+        })
+      </script>
+</body>
+</html>
